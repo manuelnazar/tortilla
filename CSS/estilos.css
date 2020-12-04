@@ -1,0 +1,112 @@
+body{
+  background-color: rgb(255,238,88);
+  background-image:url(../Imagenes/bandera_española.jpg);
+  background-repeat:repeat;
+  background-attachment:fixed;
+
+}
+
+header{
+ background-color:;
+ width: 100%;
+
+}
+
+section{
+
+  width: 100%;
+  box-sizing: border-box;
+}
+
+aside{
+
+  float: left;
+  box-sizing: border-box;
+  width: 50%;
+
+  }
+
+footer{
+
+  text-align: center;
+  clear: both;
+}
+
+h1{
+  font-size: 50px;
+  text-align: center;
+}
+
+a{
+  text-align: center;
+}
+
+p{
+  font-size: 20px;
+}
+
+
+#imagen{
+    width: 30%;
+    height: 300px;
+    float:left;
+    margin: 1%;
+    box-sizing: border-box;
+
+}
+
+#audio{
+    display: flex;
+    align-self: flex-start;
+    width: 100%;
+}
+
+#historia{
+    background-color: gray;
+    font-size: 15px;
+    font-style: italic;
+    color: white;
+    width: 30%;
+    height: 300px;
+    float: left;
+    border: outset black;
+    box-sizing: border-box;
+    margin: 1%;
+    overflow: auto;
+    padding: 20px;
+}
+
+#mapa{
+    width: 30%;
+    margin-left: 20px;
+    height: 300px;
+
+}
+.ingredientes{
+      font-size: 20px;
+      padding-left: 20px;
+      background-color: gray;
+      width: 50%;
+      float: left;
+      box-sizing: border-box;
+      border: 10px solid black;
+      height: 360PX;
+      overflow: auto;
+
+}
+
+.receta{
+      font-size: 20px;
+      padding-left: 20px;
+      background-color: gray;
+      width: 100%;
+      border: 10px dotted black;
+      box-sizing: border-box;
+      margin-left: 10px;
+      height: 360px;
+      overflow: auto;
+}
+
+.link_recetas{
+  text-align: center;
+}
